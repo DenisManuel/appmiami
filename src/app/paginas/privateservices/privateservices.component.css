@@ -1,0 +1,119 @@
+/* styles.css */
+
+.portfolio-item {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.portfolio-inner {
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.portfolio-inner:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.portfolio-inner:hover .overlay {
+  opacity: 1;
+  height: 50px;
+}
+
+.btn {
+  color: #1bbd36;
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.input-group {
+  margin-top: 10px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.portfolio-title {
+  background-color: #0e1323;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+/**/
+.icono {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .icono:hover {
+    transform: scale(1.1);
+    background-color: #21df41;
+  }
+
+  /*categorias*/
+  .col-md-3 img{
+    /*margin-right: 0.5px; */
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /*.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-right: 800px solid transparent;
+    border-bottom: 190px solid rgba(0, 0, 0, 0.5);
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+  }*/
+
+  /*CARRUSEL - pendiente de construir*/ 

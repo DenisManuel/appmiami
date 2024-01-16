@@ -1,0 +1,136 @@
+/* styles miami tours */
+
+#contact.fcontact {
+    position: relative;
+    background-image: url('/assets/img/portfolio/miami.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  #contact.fcontact .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #contact.fcontact form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contact.fcontact form label {
+    color: #fff;
+  }
+  
+  #contact.fcontact form button.boton {
+    background-color: #1bbd36;
+    color: #fff;
+    border: 2px solid #1bbd36;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact.fcontact form button.boton:hover {
+    background-color: #136526;
+    border: 2px solid #136526;
+  }
+
+
+
+/* styles Everglades */
+
+#contact.fcontact2 {
+    position: relative;
+    background-image: url('/assets/img/portfolio/everglades.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 80px 0;
+}
+
+#contact.fcontact2 .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #contact.fcontact2 form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contact.fcontact2 form label {
+    color: #fff;
+  }
+  
+  #contact.fcontact2 form button.boton {
+    background-color: #1bbd36;
+    color: #fff;
+    border: 2px solid #1bbd36;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact.fcontact2 form button.boton:hover {
+    background-color: #136526;
+    border: 2px solid #136526;
+  }
+
+/* styles Keywest */
+
+#contact.fcontact3 {
+    position: relative;
+    background-image: url('/assets/img/portfolio/keywest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  #contact.fcontact3 .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #contact.fcontact3 form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contact.fcontact3 form label {
+    color: #fff;
+  }
+  
+  #contact.fcontact3 form button.boton {
+    background-color: #1bbd36;
+    color: #fff;
+    border: 2px solid #1bbd36;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact.fcontact3 form button.boton:hover {
+    background-color: #136526;
+    border: 2px solid #136526;
+  }
+
+  /* media queries */
+  
+  @media (max-width: 767px) {
+    #contact.fcontact .row.wrapper {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }

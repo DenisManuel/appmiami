@@ -1,0 +1,28 @@
+.justificar {
+    text-align: justify;
+  }
+  
+  .justificar p {
+    margin-bottom: 10px;
+  }
+
+  .justificar p::after {
+    content: '';
+    display: block;
+    height: 1em;
+  }
+
+ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 24px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: #2ae149;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
