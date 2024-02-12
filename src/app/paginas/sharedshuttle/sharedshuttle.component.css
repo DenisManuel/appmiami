@@ -1,0 +1,29 @@
+.justificar {
+    text-align: justify;
+  }
+  
+  .justificar p {
+    margin-bottom: 10px;
+  }
+
+  .justificar p::after {
+    content: '';
+    display: block;
+    height: 1em;
+  }
+
+  .quote-button {
+    display: block;
+    width: 98%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff; /* Color del texto cuando no hay hover */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .quote-button:hover {
+    background-color: #fff; /* Color de fondo al hacer hover */
+    color: #080606; /* Nuevo color del texto al hacer hover */
+    transform: scale(1.1); /* Agrandamiento al hacer hover (ajusta según tus necesidades) */
+  }
+  
