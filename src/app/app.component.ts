@@ -12,6 +12,8 @@ import { PrivatetoursComponent } from "./paginas/privatetours/privatetours.compo
 import { GetquoteComponent } from "./paginas/getquote/getquote.component";
 import { SharedshuttleComponent } from "./paginas/sharedshuttle/sharedshuttle.component";
 import { CorporateComponent } from './paginas/corporate/corporate.component';
+import { SeaportComponent } from './paginas/seaport/seaport.component';
+import { AirportComponent } from './paginas/airport/airport.component';
 
 
 @Component({
@@ -31,7 +33,9 @@ import { CorporateComponent } from './paginas/corporate/corporate.component';
       PrivatetoursComponent, 
       GetquoteComponent, 
       SharedshuttleComponent,
-      CorporateComponent
+      CorporateComponent,
+      SeaportComponent,
+      AirportComponent
     ]
 })
 export class AppComponent {
