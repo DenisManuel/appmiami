@@ -14,6 +14,7 @@ import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
+    {path: 'home', component: HomeComponent},
     {path: 'privateservices', component: PrivateservicesComponent},
     {path: 'privatetours', component: PrivatetoursComponent},
     {path: 'getquote', component: GetquoteComponent},
@@ -22,6 +23,7 @@ export const routes: Routes = [
     {path: 'corporate', component: CorporateComponent},
     {path: 'seaport', component: SeaportComponent},
     {path: 'airport', component: AirportComponent},
+    {path: '**', redirectTo: 'home'}
 ];
 
 @NgModule({

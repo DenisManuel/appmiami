@@ -57,6 +57,14 @@
     onscroll(document, toggleBacktotop)
   }
 
+  
+  /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+
+
+    
   /**
    * Mobile nav toggle
    */
@@ -75,12 +83,6 @@
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
   }, true)
-
-  
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
 
 
 /**
