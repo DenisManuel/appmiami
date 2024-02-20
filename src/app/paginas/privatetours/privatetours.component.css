@@ -126,6 +126,36 @@
     border: 2px solid #136526;
   }
 
+  .f-tour {
+    width: 400px; /* Tamaño uniforme de 400px */
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .f-tour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 60%, rgba(255,255,255,0.4) 80%, rgba(255,255,255,0.6) 100%); /* Efecto de brillo */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .f-tour:hover::before {
+    opacity: 1;
+  }
+  
+  .f-tour:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+  }
+  
   /* media queries */
   
   @media (max-width: 767px) {
