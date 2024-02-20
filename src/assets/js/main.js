@@ -57,6 +57,14 @@
     onscroll(document, toggleBacktotop)
   }
 
+  
+  /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+
+
+    
   /**
    * Mobile nav toggle
    */
@@ -76,22 +84,23 @@
     }
   }, true)
 
-  /**
+
+/**
    * Hero carousel indicators
    */
-  let heroCarouselIndicators = select("#hero-carousel-indicators")
-  let heroCarouselItems = select('#heroCarousel .carousel-item', true)
+let heroCarouselIndicators = select("#hero-carousel-indicators")
+let heroCarouselItems = select('#heroCarousel .carousel-item', true)
 
-  heroCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
-  });
+heroCarouselItems.forEach((item, index) => {
+  (index === 0) ?
+  heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
+}); 
 
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
+
+
+
+
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
