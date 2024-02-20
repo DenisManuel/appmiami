@@ -103,17 +103,22 @@
     height: auto;
     display: block;
   }
-  
-  /*.overlay2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-right: 800px solid transparent;
-    border-bottom: 190px solid rgba(0, 0, 0, 0.5);
-    transform-origin: left bottom;
-    transform: rotate(-45deg);
-  }*/
 
-  /*CARRUSEL - pendiente de construir*/ 
+  .image-container {
+    position: relative;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+  }
+
+  .texto {
+    background-color: rgba(0, 0, 0, 0.617); /* Negro semi transparente */
+    padding: 20px; /* Ajusta el margen interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+  }

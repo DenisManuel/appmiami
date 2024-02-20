@@ -1,0 +1,126 @@
+.my-custom-tabs .nav-link {
+    color: #333; /* Color del texto */
+    background-color: #fff; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 5px; /* Espaciado entre tabs */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+  }
+  
+  .my-custom-tabs .nav-link:hover {
+    background-color: #f8f9fa; /* Cambio de color al pasar el ratón */
+  }
+  
+  .my-custom-tabs .nav-link.active {
+    background-color: #007bff; /* Color de fondo para el tab activo */
+    color: #fff; /* Color del texto para el tab activo */
+  }
+  
+  .my-custom-tab-content {
+    padding: 20px; /* Espaciado interno del contenido del tab */
+  }
+
+.portfolio-item {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-inner {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .portfolio-inner:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+  
+  .portfolio-inner:hover .overlay {
+    opacity: 1;
+    height: 50px;
+  }
+  
+  .btn {
+    color: #1bbd36;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Agrega este código al archivo de estilos de tu componente o aplicación */
+  
+  .tab.nav-link {
+    color: initial; /* Restablece el color del texto a su valor inicial */
+    transition: color 0.3s ease; /* Agrega una transición suave */
+  }
+  
+  .tab.nav-link:hover {
+    color: #1bbd36; /* Cambia el color del texto al hacer hover */
+  }
+  
+  /* Agrega este código al archivo de estilos de tu componente o aplicación */
+  
+  .toairport.btn {
+    background-color: initial; /* Restablece el color de fondo a su valor inicial */
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
+  }
+  
+  .toairport.btn:hover {
+    background-color: #1bbd36; /* Cambia el color de fondo al hacer hover */
+    color: #fff;
+  }
+  
+  
+  
+  .input-group {
+    margin-top: 10px;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .portfolio-title {
+    background-color: #0e1323;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .form-control {
+    margin-top: 10px;
+  }
+  
+  .icono {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .icono:hover {
+    transform: scale(1.1);
+    background-color: #21df41;
+  }
