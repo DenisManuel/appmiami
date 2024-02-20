@@ -106,7 +106,8 @@
               <div class="form-group col-lg-8">
                 <label for="input2">To:</label>
                 <select name="input2" id="input2" class="form-control selecth2">
-                   <option>1</option>
+                  <option>SELECT HOTEL</option>
+                  <option *ngFor="let item of myArray" [value]="item">{{ item }}</option>
                 </select>
               </div>
             </div>
